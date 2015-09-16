@@ -1,0 +1,9 @@
+.\launchpad.o: LaunchPad.cpp
+.\launchpad.o: LaunchPad.h
+.\launchpad.o: ..\Source\LaunchPadSwitch.h
+.\launchpad.o: ..\Source\SwitchInterface.h
+.\launchpad.o: ..\Source\LaunchPadSwitches.h
+.\launchpad.o: ..\Source\LaunchPadRGBLED.h
+.\launchpad.o: ..\Source\RGBLEDInterface.h
+.\launchpad.o: Lab4.h
+.\launchpad.o: ..\tm4c123gh6pm.h

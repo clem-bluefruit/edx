@@ -1,0 +1,20 @@
+﻿Build started 30/01/2015 12:34:41.
+     1>Project "C:\Users\Simon Clements\Desktop\Labs\gtest-1.7.0\msvc\gtest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\gtest\\" /Fd"Debug\gtest\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\src\gtest-all.cc"
+         gtest-all.cc
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\gtest\\" /Fd"Debug\gtest\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\SummaryAndFailurePrinter.cpp ..\src\WindowsMemoryLeakTestEventListener.cc
+         WindowsMemoryLeakTestEventListener.cc
+         SummaryAndFailurePrinter.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Debug\gtestd.lib" /LIBPATH:..\src /NOLOGO "Debug\gtest\gtest-all.obj"
+         Debug\gtest\SummaryAndFailurePrinter.obj
+         Debug\gtest\WindowsMemoryLeakTestEventListener.obj
+     1>SummaryAndFailurePrinter.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         gtest.vcxproj -> C:\Users\Simon Clements\Desktop\Labs\gtest-1.7.0\msvc\Debug\gtestd.lib
+     1>Done Building Project "C:\Users\Simon Clements\Desktop\Labs\gtest-1.7.0\msvc\gtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.17

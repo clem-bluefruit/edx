@@ -1,0 +1,9 @@
+.\main.o: main.cpp
+.\main.o: TExaS.h
+.\main.o: LaunchPad.h
+.\main.o: ..\Source\LaunchPadSwitch.h
+.\main.o: ..\Source\SwitchInterface.h
+.\main.o: ..\Source\LaunchPadSwitches.h
+.\main.o: ..\Source\LaunchPadRGBLED.h
+.\main.o: ..\Source\RGBLEDInterface.h
+.\main.o: Lab4.h
